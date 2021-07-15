@@ -75,11 +75,11 @@ Many thanks to Juijote (Steam/Github) for Chinese translation.
 
 At the moment I am working toward any issues marked with "V1.1.0 on the [url=https://github.com/WolfDKs-CK3-Modding/Easier-Realm-Management/issues] GitHub issue page [/url].
 
-[b] V1.0.6 [/b]
+[b] V1.0.7 [/b]
 
-- Added German Translation.
-- Added Chinese translation.
-- Updated Supported game version to 1.3.*
+- Added Changes made in Northern Lords DLC to the mod. (Thanks Morven for mentioning it!). Unsure if this makes the mod incompatible with non-dlc players!
+- Compressed Decisions into one, which then forks out to the current 3 ones, and so on.
+- Updated Supported game version to 1.4.*
 
 Notice: I haven't verified if anything major has changed in the games code. As such, do mention any abnormalities that occur.
 

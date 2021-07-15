@@ -152,17 +152,16 @@
 # 	}
 # }
 
-erm_manage_realm_decision = {
-	title = erm_manage_realm_t
-	desc = erm_manage_realm_desc
+erm_open_decision = {
+	title = erm_open_t
+	desc = erm_open_desc
 
 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 	major = no
 
-	confirm_text = erm_manage_realm_confirm
-	selection_tooltip = erm_manage_realm_tooltip
+	confirm_text = erm_open_confirm
+	selection_tooltip = erm_open_tooltip
 	ai_check_interval = 0
-
 	is_valid_showing_failures_only = {	
 
 	} 	
@@ -180,70 +179,102 @@ erm_manage_realm_decision = {
 	}
 
 	effect = {
-		trigger_event = erm.0800
+		trigger_event = erm.0700
 	}
 }
 
-erm_mute_councillor_decision = {
-	title = erm_mute_councillor_t
-	desc = erm_mute_councillor_desc
+# erm_manage_realm_decision = {
+# 	title = erm_manage_realm_t
+# 	desc = erm_manage_realm_desc
 
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = no
+# 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+# 	major = no
 
-	confirm_text = erm_mute_councillor_confirm
-	selection_tooltip = erm_mute_councillor_tooltip
-	ai_check_interval = 0
+# 	confirm_text = erm_manage_realm_confirm
+# 	selection_tooltip = erm_manage_realm_tooltip
+# 	ai_check_interval = 0
 
-	is_valid_showing_failures_only = {	
+# 	is_valid_showing_failures_only = {	
 
-	} 	
+# 	} 	
 
-	is_valid = {
+# 	is_valid = {
 
-	}
+# 	}
 	
-	ai_potential = {
-		always = no
-	}
+# 	ai_potential = {
+# 		always = no
+# 	}
 
-	ai_will_do = {
-		base = 0
-	}
+# 	ai_will_do = {
+# 		base = 0
+# 	}
 
-	effect = {
-		trigger_event = erm.0950
-	}
-}
+# 	effect = {
+# 		trigger_event = erm.0800
+# 	}
+# }
 
-erm_alter_tasks_decision = {
-	title = erm_alter_tasks_t
-	desc = erm_alter_tasks_desc
+# erm_mute_councillor_decision = {
+# 	title = erm_mute_councillor_t
+# 	desc = erm_mute_councillor_desc
 
-	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	major = no
+# 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+# 	major = no
 
-	confirm_text = erm_alter_tasks_confirm
-	selection_tooltip = erm_alter_tasks_tooltip
-	ai_check_interval = 0
+# 	confirm_text = erm_mute_councillor_confirm
+# 	selection_tooltip = erm_mute_councillor_tooltip
+# 	ai_check_interval = 0
 
-	is_valid_showing_failures_only = {	
+# 	is_valid_showing_failures_only = {	
 
-	} 	
+# 	} 	
 
-	is_valid = {
+# 	is_valid = {
 
-	}
+# 	}
 	
-	ai_potential = {
-		always = no
-	}
+# 	ai_potential = {
+# 		always = no
+# 	}
 
-	ai_will_do = {
-		base = 0
-	}
+# 	ai_will_do = {
+# 		base = 0
+# 	}
 
-	effect = {
-		trigger_event = erm.1000
-	}
-}
+# 	effect = {
+# 		trigger_event = erm.0950
+# 	}
+# }
+
+# erm_alter_tasks_decision = {
+# 	title = erm_alter_tasks_t
+# 	desc = erm_alter_tasks_desc
+
+# 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+# 	major = no
+
+# 	confirm_text = erm_alter_tasks_confirm
+# 	selection_tooltip = erm_alter_tasks_tooltip
+# 	ai_check_interval = 0
+
+# 	is_valid_showing_failures_only = {	
+
+# 	} 	
+
+# 	is_valid = {
+
+# 	}
+	
+# 	ai_potential = {
+# 		always = no
+# 	}
+
+# 	ai_will_do = {
+# 		base = 0
+# 	}
+
+# 	effect = {
+# 		trigger_event = erm.1000
+# 	}
+# }

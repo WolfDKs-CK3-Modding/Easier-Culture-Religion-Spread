@@ -31,6 +31,12 @@ erm_0003_mes1_description:0 "[GetPlayer.MakeScope.Var('rebels_count').GetValue] 
 erm_0004_mes1_t:0 "Developing County in [GetPlayer.MakeScope.Var('saved_scope').Title.GetNameNoTooltip]."
 erm_0004_mes1_description:0 "[GetPlayer.MakeScope.Var('rural_count').GetValue] counties remain to be developed."
 
+erm_0700_t:0 "Manage Easier Realm Management"
+erm_0700_desc:0 "Which section of the mod do you wish to access?"
+erm_0700_a:0 "Realm Management"
+erm_0700_b:0 "Letter Silencing"
+erm_0700_c:0 "Configuration"
+
 erm_0800_t:0 "Manage Realm"
 erm_0800_desc:0 "What do you want to manage?"
 
